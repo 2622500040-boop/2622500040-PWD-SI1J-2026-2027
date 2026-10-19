@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { margin:0; padding:12px; font-family:Arial,sans-serif; color:#111827; background:#eef2f7; }
+header { background:#003366; color:#fff; padding:20px; margin-bottom:20px; border:1px solid #00264d; }
+header h1 { margin:0; font-size:28px; }
+.header-top { display:flex; justify-content:space-between; align-items:center; }
+#navMenu { display:none; }
+#navMenu.nav-open { display:flex; flex-direction:column; margin-top:16px; }
+.nav-toggle { display:block; border:none; background:transparent; color:#fff; font-size:1.8rem; cursor:pointer; }
+nav ul { display:flex; flex-direction:column; gap:12px; margin:0; padding:0; list-style:none; }
+nav a { color:#fff; font-weight:bold; text-decoration:none; }
+main { display:grid; grid-template-columns:1fr; gap:16px; }
+section { width:100%; }
+#home,#about { background:#fff; border:1px solid #d0d7de; padding:20px; }
+#contact { background:#f8fafc; border:1px solid #cbd5e1; padding:20px; }
+.form-group { margin:12px 0; }
+.input-form { width:100%; padding:8px; border:1px solid #94a3b8; }
+#contact button { background:#003366; color:#fff; font-weight:bold; padding:8px 14px; border:1px solid #003366; cursor:pointer; }
+footer { background:#003366; color:#fff; text-align:center; padding:14px 20px; margin-top:20px; }
+.form-feedback-error { color:#c62828; }
+.form-feedback-success { color:#2e7d32; }
+@media (min-width:768px){
+  nav ul { flex-direction:row; gap:16px; }
+  main { grid-template-columns:1fr 1fr; }
+  #contact { grid-column:1 / -1; }
+  #navMenu { display:flex; flex-direction:row; }
+  .nav-toggle { display:none; }
+}
