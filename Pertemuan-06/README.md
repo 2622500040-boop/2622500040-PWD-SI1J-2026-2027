@@ -17,7 +17,7 @@ Repositori ini berisi dokumentasi dan hasil pengerjaan **Pertemuan 6 (P6): PHP D
 - **Aplikasi Peladen**: Laragon (Apache)
 - **Versi PHP**: 8.x
 - **Document Root**: `C:\laragon\www\`
-- **Alamat URL Akses**: `http://localhost/2622500040-PWD-SI1J-2627/pertemuan-06/`
+- **Alamat URL Akses**: `http://localhost/2622500040-PWD-SI1J-2026-2027/pertemuan-06/`
 
 ---
 
