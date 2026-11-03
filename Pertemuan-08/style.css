@@ -1,5 +1,4 @@
-/* PENGATURAN DASAR */
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* HEADER */
 header {
     background-color: #ffca28;
     text-align: center;
@@ -28,7 +26,6 @@ header p {
     margin-top: 5px;
 }
 
-/* NAVIGASI */
 nav {
     background-color: #333;
     display: flex;
@@ -51,7 +48,6 @@ nav a:hover {
     color: #333;
 }
 
-/* BERANDA */
 .beranda {
     min-height: 330px;
     padding: 60px 20px;
@@ -99,7 +95,6 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* PROFILE */
 .kartu-profile {
     max-width: 420px;
     margin: auto;
@@ -133,7 +128,6 @@ nav a:hover {
     overflow-wrap: anywhere;
 }
 
-/* GALERI FOTO HOBI */
 .galeri {
     background-color: #fff5ce;
 }
@@ -175,7 +169,6 @@ nav a:hover {
     margin: 5px 0 8px;
 }
 
-/* PENDAFTARAN */
 .pendaftaran {
     background-color: #fffdf4;
 }
@@ -234,7 +227,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* FOOTER */
 footer {
     padding: 22px 15px;
     background-color: #333;
@@ -242,7 +234,6 @@ footer {
     text-align: center;
 }
 
-/* TAMPILAN HP DAN TABLET */
 @media (max-width: 768px) {
     .galeri-container {
         grid-template-columns: 1fr;
