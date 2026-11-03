@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi Kintia Wijanti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <h1>Website Pribadi Kintia</h1>
+        <p>Selamat Datang di Dunia Saya</p>
+    </header>
+
+    <!-- NAVIGASI -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#profile">Profile</a>
+        <a href="#hobi">Hobi Saya</a>
+        <a href="#pendaftaran">Pendaftaran</a>
+    </nav>
+
+    <!-- BERANDA -->
+    <section id="beranda" class="beranda">
+        <div class="beranda-konten">
+            <h2>Halo, Saya Kintia Wijanti!</h2>
+            <p>
+                Selamat datang di website pribadi saya.
+                Saya mahasiswa kelompok SI1J yang memiliki
+                hobi memasak dan menyukai warna kuning.
+            </p>
+            <a href="#profile" class="tombol">Kenali Saya</a>
+        </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="profile" class="bagian">
+        <h2>Profil Saya</h2>
+
+        <div class="kartu-profile">
+            <div class="inisial">KW</div>
+
+            <h3>Kintia Wijanti</h3>
+            <p><strong>Kelompok:</strong> SI1J</p>
+            <p><strong>Hobi:</strong> Memasak</p>
+            <p><strong>Warna Favorit:</strong> Kuning</p>
+
+            <p>
+                <strong>GitHub:</strong><br>
+                <a
+                    href="https://github.com/2622500040-boop/2622500040-PWD-SI1J-2026-2027"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Kunjungi Repository Saya
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- FOTO HOBI MEMASAK -->
+    <section id="hobi" class="bagian galeri">
+        <h2>Hobi Saya: Memasak</h2>
+        <p class="deskripsi">
+            Saya senang memasak dan mencoba berbagai
+            resep makanan yang menarik.
+        </p>
+
+        <div class="galeri-container">
+            <div class="kartu-foto">
+                <img src="images/masakan1.jpg"
+                     alt="Hasil masakan pertama">
+                <h3>Masakan Favorit</h3>
+                <p>Membuat hidangan yang lezat.</p>
+            </div>
+
+            <div class="kartu-foto">
+                <img src="images/masakan2.jpg"
+                     alt="Proses memasak di dapur">
+                <h3>Proses Memasak</h3>
+                <p>Belajar mengolah bahan makanan.</p>
+            </div>
+
+            <div class="kartu-foto">
+                <img src="images/masakan3.jpg"
+                     alt="Hidangan hasil kreasi sendiri">
+                <h3>Kreasi Makanan</h3>
+                <p>Mencoba resep baru dengan kreatif.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PENDAFTARAN -->
+    <section id="pendaftaran" class="bagian pendaftaran">
+        <h2>Formulir Pendaftaran</h2>
+        <p>Silakan isi formulir di bawah ini.</p>
+
+        <form id="formPendaftaran">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama"
+                   placeholder="Masukkan nama lengkap" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Masukkan email" required>
+
+            <label for="kelompok">Kelompok</label>
+            <input type="text" id="kelompok" name="kelompok"
+                   placeholder="Contoh: SI1J" required>
+
+            <label for="hobiPilihan">Hobi</label>
+            <select id="hobiPilihan" name="hobi" required>
+                <option value="">Pilih hobi</option>
+                <option value="Memasak">Memasak</option>
+                <option value="Membaca">Membaca</option>
+                <option value="Olahraga">Olahraga</option>
+                <option value="Musik">Musik</option>
+                <option value="Lainnya">Lainnya</option>
+            </select>
+
+            <button type="submit">Daftar Sekarang</button>
+            <p id="pesan" role="status" aria-live="polite"></p>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Kintia Wijanti | SI1J</p>
+        <p>Website Pribadi - Pemrograman Web Dasar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
